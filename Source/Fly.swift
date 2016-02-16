@@ -74,7 +74,7 @@ public final class Fly {
     }
     
     private func runCompletion(obj: AnyObject?) {
-        self.elements.forEach() { if case .Completion(let f) = $0.type { dispatch_async($0.gcd.queue, { f(obj) }) }}
+        self.elements.forEach() { if case .Completion(let f) = $0.type { dispatch_async($0.gcd.queue) { f(obj) } }}
     }
     
     private func fly(previousResult: FlyResult, _ previousFlyPoint: FlyPoint?) {
