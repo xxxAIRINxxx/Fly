@@ -70,7 +70,7 @@
 		91B9EB121C59AB9700426490 = {
 			isa = PBXGroup;
 			children = (
-				91B9EB1E1C59AB9700426490 /* Source */,
+				91B9EB1E1C59AB9700426490 /* Sources */,
 				915CF4651C66466F00ADD96D /* FlyTests */,
 				91B9EB1D1C59AB9700426490 /* Products */,
 			);
@@ -85,7 +85,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		91B9EB1E1C59AB9700426490 /* Source */ = {
+		91B9EB1E1C59AB9700426490 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				915CF45C1C6645CF00ADD96D /* Fly.h */,
@@ -93,8 +93,8 @@
 				91EEBA981C606830008E25FC /* GCD.swift */,
 				91B9EB381C59AC1900426490 /* Info.plist */,
 			);
-			name = Source;
-			path = ../Source;
+			name = Sources;
+			path = ../Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,7 +353,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/../Source/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,7 +372,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/../Source/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
