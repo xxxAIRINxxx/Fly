@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Fly"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Execution control of chained closures (next, cancel, complete, error, back, retry, restart)."
   s.homepage     = "https://github.com/xxxAIRINxxx/Fly"
   s.license      = 'MIT'
