@@ -179,7 +179,7 @@ Fly.onFirst { result in
 
 ### CocoaPods
 
-Chain is available through [CocoaPods](http://cocoapods.org). To install
+Fly is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
