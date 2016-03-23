@@ -11,7 +11,6 @@
 		9194AA181C6648D800A4831F /* FlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9194AA161C6648D800A4831F /* FlyTests.swift */; };
 		9194AA191C6648D800A4831F /* GCDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9194AA171C6648D800A4831F /* GCDTests.swift */; };
 		9194AA1A1C664A1B00A4831F /* Fly.h in Headers */ = {isa = PBXBuildFile; fileRef = 915CF45C1C6645CF00ADD96D /* Fly.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91B9EB3B1C59AC1900426490 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91B9EB381C59AC1900426490 /* Info.plist */; };
 		91EEBA971C6067E4008E25FC /* Fly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EEBA961C6067E4008E25FC /* Fly.swift */; };
 		91EEBA991C606830008E25FC /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EEBA981C606830008E25FC /* GCD.swift */; };
 /* End PBXBuildFile section */
@@ -154,7 +153,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = xxxAIRINxxx;
 				TargetAttributes = {
 					915CF4631C66466F00ADD96D = {
@@ -195,7 +194,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91B9EB3B1C59AC1900426490 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +353,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/../Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xxxAIRINxxx.Fly;
 				PRODUCT_NAME = Fly;
@@ -374,7 +372,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/../Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xxxAIRINxxx.Fly;
 				PRODUCT_NAME = Fly;
