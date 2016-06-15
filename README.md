@@ -190,7 +190,7 @@ pod "Fly"
 
 ### Carthage
 
-To integrate Chain into your Xcode project using Carthage, specify it in your Cartfile:
+To integrate Fly into your Xcode project using Carthage, specify it in your Cartfile:
 
 ```ruby
 github "xxxAIRINxxx/Fly"
